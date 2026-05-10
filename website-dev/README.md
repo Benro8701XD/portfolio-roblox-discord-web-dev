@@ -1,19 +1,19 @@
 # Website Dev
 
-Proyectos de desarrollo web, landing pages, interfaces y páginas responsivas.
+Web development projects, landing pages, interfaces, and responsive websites.
 
-## Ideas de proyectos
+## Project ideas
 
-- Portafolio personal
+- Personal portfolio
 - Landing page
 - Dashboard
-- Página para negocio
-- Blog simple
+- Business website
+- Simple blog
 - Login/register UI
-- Web app con API
-- Sitio responsive
+- Web app with an API
+- Responsive website
 
-## Tecnologías posibles
+## Possible technologies
 
 - HTML
 - CSS
@@ -23,20 +23,20 @@ Proyectos de desarrollo web, landing pages, interfaces y páginas responsivas.
 - Next.js
 - Tailwind CSS
 
-## Formato sugerido
+## Suggested format
 
 ```md
-## Nombre del sitio
+## Website name
 
-**Descripción:** Qué hace la web.
+**Description:** What the website does.
 
 **Stack:** HTML/CSS/JS, React, Next.js, etc.
 
-**Características:**
-- Responsive
-- Animaciones
-- Formularios
-- Integración con API
+**Features:**
+- Responsive layout
+- Animations
+- Forms
+- API integration
 
-**Demo:** Agregar link si existe.
+**Demo:** Add a link if available.
 ```
