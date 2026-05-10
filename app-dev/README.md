@@ -1,18 +1,18 @@
 # App Dev
 
-Ideas y ejemplos de desarrollo de aplicaciones móviles o de escritorio.
+Ideas and examples for mobile or desktop application development.
 
-## Ideas de proyectos
+## Project ideas
 
-- App de notas
+- Notes app
 - To-do list
-- Calculadora
-- App de clima
-- App de hábitos
-- Dashboard personal
-- Herramienta de productividad
+- Calculator
+- Weather app
+- Habit tracker
+- Personal dashboard
+- Productivity tool
 
-## Tecnologías posibles
+## Possible technologies
 
 - React Native
 - Flutter
@@ -20,19 +20,19 @@ Ideas y ejemplos de desarrollo de aplicaciones móviles o de escritorio.
 - Python
 - JavaScript / TypeScript
 
-## Formato sugerido
+## Suggested format
 
 ```md
-## Nombre de la app
+## App name
 
-**Descripción:** Qué hace la app.
+**Description:** What the app does.
 
-**Plataforma:** Android, iOS, escritorio o web app.
+**Platform:** Android, iOS, desktop, or web app.
 
-**Stack:** Frameworks y lenguajes usados.
+**Stack:** Frameworks and languages used.
 
-**Características:**
-- Función 1
-- Función 2
-- Función 3
+**Features:**
+- Feature 1
+- Feature 2
+- Feature 3
 ```
