@@ -1,34 +1,34 @@
 # Roblox Scripting
 
-Ejemplos de scripting para Roblox Studio usando Luau.
+Scripting examples for Roblox Studio using Luau.
 
-## Ideas de proyectos
+## Project ideas
 
-- Sistema de monedas
-- Tienda dentro del juego
-- Sistema de niveles / XP
-- DataStore para guardar progreso
+- Coin system
+- In-game shop
+- Level / XP system
+- DataStore for saving progress
 - Leaderstats
-- Herramientas y armas
-- Sistema de misiones
-- Teleports y checkpoints
-- Eventos remotos con RemoteEvent / RemoteFunction
+- Tools and weapons
+- Quest system
+- Teleports and checkpoints
+- Remote events with RemoteEvent / RemoteFunction
 
-## Formato sugerido para cada ejemplo
+## Suggested format for each example
 
 ```md
-## Nombre del proyecto
+## Project name
 
-**Descripción:** Qué hace el script.
+**Description:** What the script does.
 
-**Tecnologías:** Luau, Roblox Studio.
+**Technologies:** Luau, Roblox Studio.
 
-**Archivos:**
+**Files:**
 - `ServerScriptService/...`
 - `ReplicatedStorage/...`
 
-**Cómo usarlo:**
-1. Copiar el script.
-2. Pegar en la ubicación indicada.
-3. Probar en Roblox Studio.
+**How to use it:**
+1. Copy the script.
+2. Paste it into the indicated location.
+3. Test it in Roblox Studio.
 ```
