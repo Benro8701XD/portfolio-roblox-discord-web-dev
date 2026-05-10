@@ -1,28 +1,28 @@
 # Roblox GUI/GFX
 
-Sección para interfaces, menús, HUDs y recursos gráficos para Roblox.
+Section for interfaces, menus, HUDs, and graphic resources for Roblox.
 
-## Ideas de contenido
+## Content ideas
 
-- Menú principal
-- Pantalla de carga
-- HUD de vida, monedas y nivel
-- Inventario visual
-- Botones animados
+- Main menu
+- Loading screen
+- Health, coins, and level HUD
+- Visual inventory
+- Animated buttons
 - Shop UI
 - Gamepass UI
-- Iconos, banners y thumbnails
+- Icons, banners, and thumbnails
 
-## Formato sugerido
+## Suggested format
 
 ```md
-## Nombre del diseño
+## Design name
 
-**Descripción:** Qué muestra la interfaz o gráfico.
+**Description:** What the interface or graphic shows.
 
-**Herramientas:** Roblox Studio, Figma, Photoshop, Canva u otra.
+**Tools:** Roblox Studio, Figma, Photoshop, Canva, or another tool.
 
-**Capturas:** Agregar imágenes en `assets/`.
+**Screenshots:** Add images to `assets/`.
 
-**Notas:** Explicación de colores, estilo y objetivo visual.
+**Notes:** Explanation of colors, style, and visual goal.
 ```
