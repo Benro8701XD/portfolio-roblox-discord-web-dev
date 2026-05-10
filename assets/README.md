@@ -1,20 +1,20 @@
 # Assets
 
-Carpeta para guardar recursos visuales del portafolio.
+Folder for storing visual resources for the portfolio.
 
-## Puedes agregar
+## You can add
 
-- Capturas de proyectos
-- GIFs de demostración
+- Project screenshots
+- Demo GIFs
 - Logos
 - Banners
 - Thumbnails
-- Iconos
+- Icons
 - Mockups
 
-## Recomendación
+## Recommendation
 
-Usa nombres descriptivos para los archivos:
+Use descriptive names for files:
 
 ```text
 roblox-shop-ui.png
