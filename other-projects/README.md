@@ -1,26 +1,26 @@
 # Other Projects
 
-Espacio para experimentos, prototipos, ideas creativas y proyectos variados.
+Space for experiments, prototypes, creative ideas, and miscellaneous projects.
 
 ## Ideas
 
-- Mini juegos
-- Pruebas de APIs
-- Experimentos con UI
-- Herramientas personales
-- Prototipos rápidos
-- Recursos reutilizables
+- Mini games
+- API tests
+- UI experiments
+- Personal tools
+- Quick prototypes
+- Reusable resources
 
-## Formato sugerido
+## Suggested format
 
 ```md
-## Nombre del proyecto
+## Project name
 
-**Descripción:** Qué es el proyecto.
+**Description:** What the project is.
 
-**Estado:** Idea, prototipo, en desarrollo o terminado.
+**Status:** Idea, prototype, in development, or finished.
 
-**Tecnologías:** Lenguajes, frameworks o herramientas usadas.
+**Technologies:** Languages, frameworks, or tools used.
 
-**Notas:** Qué aprendiste o qué mejorarías.
+**Notes:** What you learned or what you would improve.
 ```
