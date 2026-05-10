@@ -1,18 +1,18 @@
 # Script Dev
 
-Scripts, automatizaciones y herramientas pequeñas para resolver tareas específicas.
+Scripts, automations, and small tools for solving specific tasks.
 
-## Ideas de proyectos
+## Project ideas
 
-- Automatización de archivos
-- Web scraping básico
-- Bots simples
-- Herramientas CLI
-- Scripts de utilidad para Windows/Linux
-- Procesamiento de datos
-- Generadores de archivos
+- File automation
+- Basic web scraping
+- Simple bots
+- CLI tools
+- Utility scripts for Windows/Linux
+- Data processing
+- File generators
 
-## Tecnologías posibles
+## Possible technologies
 
 - Python
 - JavaScript
@@ -20,19 +20,19 @@ Scripts, automatizaciones y herramientas pequeñas para resolver tareas específ
 - PowerShell
 - Lua
 
-## Formato sugerido
+## Suggested format
 
-```md
-## Nombre del script
+````md
+## Script name
 
-**Descripción:** Qué automatiza o resuelve.
+**Description:** What it automates or solves.
 
-**Lenguaje:** Python, JavaScript, Bash, etc.
+**Language:** Python, JavaScript, Bash, etc.
 
-**Uso:**
+**Usage:**
 ```bash
-comando de ejemplo
+example command
 ```
 
-**Notas:** Requisitos, dependencias o advertencias.
-```
+**Notes:** Requirements, dependencies, or warnings.
+````
