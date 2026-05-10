@@ -1,37 +1,37 @@
 # Discord Bots
 
-Ejemplos de bots para Discord usando Node.js, JavaScript o TypeScript.
+Examples of Discord bots using Node.js, JavaScript, or TypeScript.
 
-## Ideas de proyectos
+## Project ideas
 
-- Bot de moderación
-- Sistema de tickets
-- Comandos slash
-- Logs de servidor
-- Mensajes de bienvenida
-- Sistema de niveles
-- Bot de música
-- Bot de economía
-- Integraciones con APIs
+- Moderation bot
+- Ticket system
+- Slash commands
+- Server logs
+- Welcome messages
+- Level system
+- Music bot
+- Economy bot
+- API integrations
 
-## Formato sugerido
+## Suggested format
 
 ```md
-## Nombre del bot
+## Bot name
 
-**Descripción:** Qué problema resuelve el bot.
+**Description:** What problem the bot solves.
 
-**Tecnologías:** Node.js, discord.js, JavaScript/TypeScript.
+**Technologies:** Node.js, discord.js, JavaScript/TypeScript.
 
-**Funciones principales:**
-- Comando 1
-- Comando 2
-- Automatización 1
+**Main features:**
+- Command 1
+- Command 2
+- Automation 1
 
-**Cómo ejecutarlo:**
-1. Instalar dependencias.
-2. Configurar `.env`.
-3. Ejecutar el bot.
+**How to run it:**
+1. Install dependencies.
+2. Configure `.env`.
+3. Run the bot.
 ```
 
-> No subas tokens, claves privadas ni archivos `.env` reales.
+> Do not upload tokens, private keys, or real `.env` files.
