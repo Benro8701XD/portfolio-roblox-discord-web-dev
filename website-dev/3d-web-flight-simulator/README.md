@@ -14,6 +14,23 @@ The main goal is to create an educational simulator where students or users can 
 
 Instead of only reading about lift, drag, thrust and weight, users can control an aircraft and see how these forces affect movement, speed, altitude and stability.
 
+## Code examples
+
+A polished example MVP has been added here:
+
+[Open example code](./examples/)
+
+The example includes:
+
+- `index.html` for the simulator layout, cockpit HUD and canvas viewport
+- `styles.css` for a clean glass-style UI with instruments, panels and controls
+- `simulator.js` for the main simulator loop, aircraft controls, drawing, telemetry and lesson progress
+- `flight-physics.js` for modular educational physics calculations
+- `aircraft-config.json` for data-driven aircraft tuning
+- `lessons.json` for guided lesson/checkpoint data
+
+This is designed as portfolio code: readable, organized and easy to expand into a larger Three.js/WebGL simulator.
+
 ## Core concept
 
 The simulator is designed around a playable MVP first, then expandable systems later.
@@ -229,7 +246,7 @@ I would start with a playable MVP: aircraft controls, simplified educational phy
 ## Future improvements
 
 - Add screenshots or demo video
-- Add source code examples
+- Add real Three.js mesh rendering
 - Add GIFs of flight controls
 - Add cockpit UI mockups
 - Add aircraft module examples
@@ -238,4 +255,4 @@ I would start with a playable MVP: aircraft controls, simplified educational phy
 
 ## Status
 
-Portfolio case study / prototype documentation.
+Portfolio case study / prototype documentation with example MVP code.
