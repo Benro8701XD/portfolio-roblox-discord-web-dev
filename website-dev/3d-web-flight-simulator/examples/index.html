@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>3D Web Flight Simulator MVP</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <main class="simulator-shell">
+    <section class="hero-panel">
+      <p class="eyebrow">Browser-Based Educational Flight Simulator</p>
+      <h1>3D Web Flight Simulator MVP</h1>
+      <p class="hero-copy">
+        A polished example interface for a modular web flight simulator: aircraft controls,
+        educational physics, cockpit instruments, lesson cards and real-time feedback.
+      </p>
+    </section>
+
+    <section class="simulator-grid">
+      <div class="viewport-card">
+        <canvas id="simCanvas" width="1280" height="720" aria-label="Flight simulator viewport"></canvas>
+
+        <div class="viewport-overlay top-left">
+          <span class="status-dot"></span>
+          <span id="systemStatus">SIM READY</span>
+        </div>
+
+        <div class="viewport-overlay top-right">
+          <span>Camera</span>
+          <strong id="cameraMode">CHASE</strong>
+        </div>
+
+        <div class="crosshair" aria-hidden="true"></div>
+      </div>
+
+      <aside class="cockpit-card">
+        <div class="panel-header">
+          <p class="eyebrow">Cockpit HUD</p>
+          <h2>Flight Instruments</h2>
+        </div>
+
+        <div class="instrument-grid">
+          <article class="instrument">
+            <span>Airspeed</span>
+            <strong id="airspeed">0</strong>
+            <small>knots</small>
+          </article>
+
+          <article class="instrument">
+            <span>Altitude</span>
+            <strong id="altitude">0</strong>
+            <small>feet</small>
+          </article>
+
+          <article class="instrument">
+            <span>Heading</span>
+            <strong id="heading">000</strong>
+            <small>degrees</small>
+          </article>
+
+          <article class="instrument">
+            <span>Throttle</span>
+            <strong id="throttle">0</strong>
+            <small>%</small>
+          </article>
+        </div>
+
+        <div class="attitude-indicator">
+          <div id="horizon" class="horizon">
+            <div class="sky"></div>
+            <div class="ground"></div>
+            <div class="wing-line"></div>
+          </div>
+          <p>Artificial Horizon</p>
+        </div>
+
+        <div class="force-bars">
+          <div class="force-row">
+            <span>Lift</span>
+            <div class="bar"><i id="liftBar"></i></div>
+          </div>
+          <div class="force-row">
+            <span>Drag</span>
+            <div class="bar"><i id="dragBar"></i></div>
+          </div>
+          <div class="force-row">
+            <span>Thrust</span>
+            <div class="bar"><i id="thrustBar"></i></div>
+          </div>
+          <div class="force-row">
+            <span>Weight</span>
+            <div class="bar"><i id="weightBar"></i></div>
+          </div>
+        </div>
+      </aside>
+    </section>
+
+    <section class="bottom-grid">
+      <article id="lessonPanel" class="lesson-card">
+        <div class="panel-header compact">
+          <p class="eyebrow">Guided Lesson</p>
+          <h2 id="lessonTitle">Takeoff Basics</h2>
+        </div>
+        <p id="lessonText">
+          Increase throttle and keep the aircraft stable. Watch how speed creates lift.
+        </p>
+        <div class="lesson-progress">
+          <span id="lessonStepLabel">Step 1 / 4</span>
+          <div class="bar"><i id="lessonProgress"></i></div>
+        </div>
+      </article>
+
+      <article class="controls-card">
+        <div class="panel-header compact">
+          <p class="eyebrow">Controls</p>
+          <h2>Keyboard Input</h2>
+        </div>
+        <ul class="controls-list">
+          <li><kbd>W</kbd><kbd>S</kbd><span>Pitch</span></li>
+          <li><kbd>A</kbd><kbd>D</kbd><span>Roll</span></li>
+          <li><kbd>Q</kbd><kbd>E</kbd><span>Yaw</span></li>
+          <li><kbd>Shift</kbd><kbd>Ctrl</kbd><span>Throttle</span></li>
+          <li><kbd>R</kbd><span>Reset aircraft</span></li>
+        </ul>
+      </article>
+
+      <article class="telemetry-card">
+        <div class="panel-header compact">
+          <p class="eyebrow">Telemetry</p>
+          <h2>Live Debug</h2>
+        </div>
+        <pre id="telemetryOutput">Waiting for simulator loop...</pre>
+      </article>
+    </section>
+  </main>
+
+  <script type="module" src="./simulator.js"></script>
+</body>
+</html>
