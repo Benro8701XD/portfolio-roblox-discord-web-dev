@@ -1,0 +1,37 @@
+{
+  "aircraft": {
+    "name": "Training Falcon Web Prototype",
+    "type": "single-engine educational trainer",
+    "mass": 930,
+    "wingArea": 16.2,
+    "maxThrust": 4300,
+    "baseDragCoefficient": 0.034,
+    "inducedDragFactor": 0.071,
+    "liftSlope": 5.1,
+    "maxLiftCoefficient": 1.45,
+    "stallSpeed": 34,
+    "minSpeed": 0,
+    "maxSpeed": 125,
+    "maxVerticalSpeed": 24,
+    "controlSensitivity": {
+      "pitch": 0.92,
+      "roll": 1.65,
+      "yaw": 0.72,
+      "throttle": 0.45
+    }
+  },
+  "environment": {
+    "gravity": 9.80665,
+    "airDensity": 1.225,
+    "groundLevel": 0,
+    "cloudLayerHeight": 1450,
+    "visibilityMeters": 12000
+  },
+  "hud": {
+    "airspeedUnit": "knots",
+    "altitudeUnit": "feet",
+    "showForces": true,
+    "showTelemetry": true,
+    "showLessonPanel": true
+  }
+}
