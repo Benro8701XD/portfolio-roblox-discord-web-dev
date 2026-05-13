@@ -15,6 +15,22 @@ The code is designed to look professional in a portfolio: it separates visual st
 | `aircraft-config.json` | Aircraft tuning data that can be swapped for different planes. |
 | `lessons.json` | Guided lesson steps for takeoff, straight flight and waypoint training. |
 
+## How to run locally
+
+Because this example uses JavaScript modules and loads JSON files with `fetch()`, open it through a local server instead of double-clicking the HTML file.
+
+Example:
+
+```bash
+python -m http.server 5500
+```
+
+Then open:
+
+```text
+http://localhost:5500/website-dev/3d-web-flight-simulator/examples/
+```
+
 ## What this demonstrates
 
 - Clean frontend project structure
@@ -38,6 +54,10 @@ The code is designed to look professional in a portfolio: it separates visual st
 | `Control` | Decrease throttle |
 | `R` | Reset aircraft |
 | `L` | Toggle lesson panel |
+
+## Technical note
+
+This example is a polished browser MVP scaffold. The current visual demo uses a canvas-based flight display to keep the example lightweight and easy to review in a portfolio. A full production version can replace or expand the viewport with real Three.js/WebGL aircraft meshes, terrain, lighting, cockpit models and airport scenery while keeping the same modular architecture.
 
 ## Notes
 
