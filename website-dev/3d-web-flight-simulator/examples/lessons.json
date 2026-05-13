@@ -1,0 +1,55 @@
+{
+  "activeLesson": "takeoff-basics",
+  "lessons": [
+    {
+      "id": "takeoff-basics",
+      "title": "Takeoff Basics",
+      "description": "Learn how throttle, airspeed and lift work together during the first seconds of flight.",
+      "steps": [
+        {
+          "title": "Power up",
+          "instruction": "Increase throttle above 70%. Watch the thrust bar and airspeed indicator.",
+          "target": { "throttleMin": 0.7 },
+          "successMessage": "Great. The aircraft is producing enough thrust to accelerate."
+        },
+        {
+          "title": "Build airspeed",
+          "instruction": "Keep the aircraft level until airspeed passes 65 knots.",
+          "target": { "airspeedKnotsMin": 65 },
+          "successMessage": "Nice. More speed means more airflow over the wing."
+        },
+        {
+          "title": "Rotate gently",
+          "instruction": "Pitch up gently and let the aircraft climb. Avoid over-rotating.",
+          "target": { "pitchDegreesMin": 4, "pitchDegreesMax": 12 },
+          "successMessage": "Smooth rotation. The aircraft is entering a controlled climb."
+        },
+        {
+          "title": "Positive climb",
+          "instruction": "Climb above 300 feet while keeping airspeed stable.",
+          "target": { "altitudeFeetMin": 300, "airspeedKnotsMin": 70 },
+          "successMessage": "Takeoff complete. You established a stable climb."
+        }
+      ]
+    },
+    {
+      "id": "straight-and-level",
+      "title": "Straight and Level Flight",
+      "description": "Practice balancing lift, weight, thrust and drag during stable cruise.",
+      "steps": [
+        {
+          "title": "Level the nose",
+          "instruction": "Keep pitch close to zero and reduce vertical speed.",
+          "target": { "pitchDegreesMin": -3, "pitchDegreesMax": 3, "verticalSpeedMaxAbs": 2 },
+          "successMessage": "Good. The aircraft is nearly level."
+        },
+        {
+          "title": "Cruise throttle",
+          "instruction": "Set throttle between 45% and 65% for efficient cruise.",
+          "target": { "throttleMin": 0.45, "throttleMax": 0.65 },
+          "successMessage": "Cruise throttle set."
+        }
+      ]
+    }
+  ]
+}
